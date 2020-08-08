@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Grønn Luft</string>
+    <string name="title_activity_get_location">GetLocationActivity</string>
+    <string name="mylocationButton">MyLocation</string>
+    <string name="getlocationButton">GetLocation</string>
+
+    // For MapBox
+    <string name="access_token">pk.eyJ1Ijoiam1yaWlzZXIiLCJhIjoiY2p0OXdhdng3MDR6czQ0cWRxcXA4MHU0cyJ9.6uoxTJOOzAW82-SOy2E5WA</string>
+    <string name="pm10">PM10</string>
+    <string name="no2">NO2</string>
+    <string name="pm25">PM25</string>
+    <string name="o3">O3</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_location">Lokasjon</string>
+    <string name="title_map">Kart</string>
+    <string name="title_settings">Innstillinger</string>
+    <string name="title_list">Liste</string>
+</resources>

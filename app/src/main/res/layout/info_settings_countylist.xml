@@ -1,0 +1,46 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AQI_Info"
+            android:padding="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/Header"
+                android:text="Hjelp"
+                android:textStyle="bold"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/Text1"
+                android:text=" --- For å legge til en kommune i listen, trykk på '+'-knappen og skriv inn navnet på kommunen du ønsker legge til. Trykk deretter 'Legg Til I listen'"
+                android:layout_below="@+id/Header"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                    android:id="@+id/Text2"
+                android:text="--- For å fjerne en kommune fra listen, sveip kommunen du ønsker fjernet til høyre eller venstre, slik at det ikke lenger er i listen"
+                android:layout_below="@+id/Text1"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/Text3"
+                android:text="--- For å endre rekkefølge på kommunene i listen, hold inne på en kommune du ønsker å flytte på, og flytt det til ønsket plass"
+                android:layout_below="@+id/Text2"
+        />
+    </RelativeLayout>
+</ScrollView>

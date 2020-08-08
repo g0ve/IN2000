@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AQI_Info"
+            android:padding="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/Farger"
+                android:text="Farger"
+                android:textStyle="bold"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/gronn"
+                android:textColor="@color/colorblindAQILow"
+                android:text="Lav"
+                android:layout_below="@+id/Farger"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/gul"
+                android:textColor="@color/colorblindAQIModerat"
+                android:text="Moderat"
+                android:layout_below="@+id/gronn"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/rød"
+                android:textColor="@color/colorblindAQIHigh"
+                android:text="Høy"
+                android:layout_below="@+id/gul"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorblindAQIVeryHigh"
+                android:id="@+id/lilla"
+                android:text="Kritisk"
+                android:layout_below="@+id/rød"
+        />
+        <TextView
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/AQI_Header"
+                android:text="AQI"
+                android:textStyle="bold"
+                android:layout_below="@+id/lilla"
+
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/AQI_Text"
+                android:text="AQI står for Air Quality Index og er et tall system som indikerer den generelle
+luftkvaliteten på en bestemt plass. Dette gjøres på en måte som gjør det enkelt for befolkningen å forstå om kvaliteten på luften er god eller dårlig.
+"
+                android:layout_below="@+id/AQI_Header"
+        />
+        <TextView
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/PM10_Header"
+                android:text="PM10"
+                android:textStyle="bold"
+                android:layout_below="@+id/AQI_Text"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/PM10_Text"
+                android:text="PM10 er partikler i luften som har en diameter på maksimalt 10 mikrometer. For høyt inntak av NO10 vil kunne føre til sår hals, smerter i brystet og vanskeligheter med å puste."
+                android:layout_below="@+id/PM10_Header"
+        />
+        <TextView
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/PM2.5_Header"
+                android:text="PM2.5"
+                android:textStyle="bold"
+                android:layout_below="@+id/PM10_Text"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/PM2.5_Text"
+                android:text="PM2.5 er små partikler som er i luften og har en størrelse på 2.5 mikrometer. Ettersom partiklene er så små, kan de bli tatt opp i blodet og ved store mengder føre til skade på lungene, astma, hjerteinfarkt og kreft."
+                android:layout_below="@+id/PM2.5_Header"
+        />
+        <TextView
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/O3_Header"
+                android:text="O3"
+                android:textStyle="bold"
+                android:layout_below="@+id/PM2.5_Text"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/O3_Text"
+                android:text="O3 eller ozon er tre oksygenatomer satt sammen. Stoffet kan ved for høyt opptak være farlig for mennesker. Med høy konsentrasjon av ozon i luftveiene blir man utsatt for betennelse, hoste og andre sykdommer som forekommer i luftveiene."
+                android:layout_below="@+id/O3_Header"
+        />
+        <TextView
+                android:paddingTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/NO2_Header"
+                android:text="NO2"
+                android:textStyle="bold"
+                android:layout_below="@+id/O3_Text"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/NO2_Text"
+                android:text="Nitrogen dioksid (NO2) er hovedsakelig et problem i store byer og rundt trafikkerte veier, og kan være skadelig for ozonlaget. For mennesker vil skade i hovedsak dreie seg skader på lunger."
+                android:layout_below="@+id/NO2_Header"
+        />
+
+
+    </RelativeLayout>
+</ScrollView>

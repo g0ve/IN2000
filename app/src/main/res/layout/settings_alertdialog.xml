@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="bottom"
+                android:text=" Kommune:"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+        />
+        <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:hint="Skriv inn kommunenavn..."
+                android:text=""
+                android:ems="10"
+                android:textColorHint="@color/gray"
+                android:id="@+id/tittelinput"
+                android:layout_height="92dp"/>
+
+        <Button
+                android:text="Legg til i listen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/addButton"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
